@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wifi control" version="4">
+  <OBJECT>
+    <ID name="wifi control" mc="Standard.Package" uid="0d8cf58f-7239-4a57-8763-10f7146798ae"/>
+    <PID name="Wifi Control" mc="Standard.Project" uid="7dbdf3a2-26a0-4718-a18f-ce28cbbdfc98"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wifi control]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Administrator" mc="Standard.Actor" uid="6067ccf2-4a70-4902-815e-4f1167e02513"/>
+        <COMPID name="Visualizar Setores" mc="Standard.UseCase" uid="acfc50c4-228d-47a0-a64a-8e8f7116a9b9"/>
+        <COMPID name="Inserir Setores" mc="Standard.UseCase" uid="dc546fa4-1ec4-425b-8890-9547d41690f3"/>
+        <COMPID name="Excluir Setores" mc="Standard.UseCase" uid="13f57f28-2cef-47bb-bbb6-ac143b951a6d"/>
+        <COMPID name="Editar Setores" mc="Standard.UseCase" uid="58931027-b1e9-46db-ae6e-4c6e86965126"/>
+        <COMPID name="Visualizar Usuários" mc="Standard.UseCase" uid="fc8f4453-987e-4c3a-9ae8-d32e58232eeb"/>
+        <COMPID name="Inserir Usuários" mc="Standard.UseCase" uid="ed82f8f3-a413-4663-84c5-f513ca79b9a1"/>
+        <COMPID name="Editar Usuários" mc="Standard.UseCase" uid="de316e7d-6b0a-4197-983d-de543ecbd05c"/>
+        <COMPID name="Excluir Usuários" mc="Standard.UseCase" uid="28f08c4c-089c-45ca-ae3c-d9b6fe554454"/>
+        <COMPID name="Editar Privilégios Usuários" mc="Standard.UseCase" uid="461f0cea-6c13-4da2-ad41-db997b9a573c"/>
+        <COMPID name="Operador1" mc="Standard.Actor" uid="a9618bfb-20e4-4a35-8137-8f189917e407"/>
+        <COMPID name="Visualizar Usuários Temporários" mc="Standard.UseCase" uid="fbd18169-0006-4fe8-aef6-7bd500ee7d78"/>
+        <COMPID name="Inserir Usuários Temporários" mc="Standard.UseCase" uid="8dbfa87e-5c92-4637-898c-2a01d9588aa6"/>
+        <COMPID name="Editar Usuários Temporários" mc="Standard.UseCase" uid="34bf650b-97ab-4ba8-a81b-43a7a3d1a5e4"/>
+        <COMPID name="Operador2" mc="Standard.Actor" uid="72ad583e-4480-44b7-966b-75dc6174151f"/>
+        <COMPID name="Editar privilégios dos Usuários Temporários" mc="Standard.UseCase" uid="9870eb46-f3ff-40f6-b0d9-3ec67856d896"/>
+        <COMPID name="Excluir Usuários Temporários" mc="Standard.UseCase" uid="61342343-00bd-402b-8a42-f7f7cdb8ff95"/>
+        <COMPID name="Editar Dispositivos dos Usuários" mc="Standard.UseCase" uid="a896980e-1fbc-41d3-9265-04933430914c"/>
+        <COMPID name="Inserir Novos Dispositivos para Usuários" mc="Standard.UseCase" uid="47a9a434-72ba-4d03-9c8c-e50f6a2b4734"/>
+        <COMPID name="Desativar Dispositivos dos Usuários" mc="Standard.UseCase" uid="979e8f5b-93d3-49b4-b04f-8d438f28469d"/>
+        <COMPID name="Desativar Dispositivos dos Usuários Temporários" mc="Standard.UseCase" uid="f81f9b79-fd64-44ab-9fe5-5e19be64aaf3"/>
+        <COMPID name="Inserir Novos Dispositivos para Usuários Temporários" mc="Standard.UseCase" uid="a9f8430f-7a33-46cc-a63f-2c7733c7b74f"/>
+        <COMPID name="Editar Dispositivos dos Usuários Temporários" mc="Standard.UseCase" uid="ffc343ac-1a50-4869-945e-c73edae0e6a4"/>
+        <COMPID name="Visualizar os dispositivos dos Usuários Temporários" mc="Standard.UseCase" uid="76de9fc8-5468-4df5-9292-9a9c70696b56"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Cenario1" mc="Standard.UseCaseDiagram" uid="6b0cf87c-c7d7-46f7-bd5b-acc751805710"/>
+        <COMPID name="Cenario2" mc="Standard.UseCaseDiagram" uid="26378c77-ccc9-45a7-95e8-8df2d555d497"/>
+        <COMPID name="Cenario3" mc="Standard.UseCaseDiagram" uid="9bd0a97d-d165-44df-9a19-a72e4405c926"/>
+        <COMPID name="Cenario4" mc="Standard.UseCaseDiagram" uid="3f58a2bd-388b-4b21-9aee-96960b0536a6"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

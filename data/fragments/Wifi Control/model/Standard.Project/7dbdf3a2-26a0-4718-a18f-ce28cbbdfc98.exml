@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Wifi Control" version="4">
+  <OBJECT>
+    <ID name="Wifi Control" mc="Standard.Project" uid="7dbdf3a2-26a0-4718-a18f-ce28cbbdfc98"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Wifi Control]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="wifi control" mc="Standard.Package" uid="0d8cf58f-7239-4a57-8763-10f7146798ae"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Wifi Control" mc="Infrastructure.DiagramSet" uid="f61be0d3-b15a-4ed1-82dd-9cd5d7296c14"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
